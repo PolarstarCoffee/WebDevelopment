@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Udemy Course Work Web Dev Scratch sheet:Forms</title>
+</head>
+
+<meta charset="UTF-8" />
+
+<link>
+</link>
+
+<body>
+    <h1> Forms Demo</h1> 
+
+    <form action="/something here">
+     <p>
+        <label for="username"> Enter password:</label>
+        <input type="username" id="username" placeholder="username" name="username">
+    </p>
+    <p>
+        <label for="password"> Enter a Password:</label>
+        <input id="password" placeholder="password">
+    </p>
+    <p> 
+        <label for="color"> Enter A Colour </label>
+        <input type="color" id="color">
+    </p>
+        <label for="number"> Enter a Number</label>
+        <input type="number" id="number" placeholder="enter number">
+        <p>
+            <button> Submit</button>
+        </p>
+    
+    <h2>Search Google</h2>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>Search Google</button>
+    </form>
+    
+    <h2> More Inputs</h2>
+    <form action="/birds">
+        <input type="checkbox" name="Agree_tos" id="agree" checked>
+        <label for="agree"> I agree to whatever</label>
+        <p>
+            <label for="xs"> XS</label>
+            <input type="radio" name="size" id="xs" value="xs">
+            <label for="s">S</label>
+            <input type="radio" name="size" id="s" value="small">
+            <label for="m">M</label>
+            <input type="radio" name="size" id="M" value="medium">
+        </p>
+        <p>
+            <label for="meal">Please Select an Entree</label>
+            <select name="meal" id="meal">
+                <option value="fish">Fish</option>
+                <option value="veg">Vegetarian</option>
+                <option value="steak">Steak</option>
+            </select>
+        </p>
+        <P>
+            <label for="cheese">Amount of Cheese</label>
+            <input type="range"id="cheese" min="1" max="100" name="cheese_level">
+        </P>
+        <p>
+            <label for="requests">Any special Requests?</label>
+            <br>
+            <textarea id="requests"></textarea>
+        </p>
+        <button> Submit</button>
+    </form>
+
+
+
+
+
+
+    </form>
+    <h3>Validations Demo</h3>
+    <form action="/dummy">
+        <label for="first">Enter First Name</label>
+        <input type="text" name="first" id="first" required>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
